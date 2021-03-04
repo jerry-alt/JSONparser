@@ -89,9 +89,6 @@
         if let _ = sender.view as? UILabel {
             print("Нажали на текст \(sender.description)")
         }
-        if let _ = sender.view as? UIPickerView {
-            print("Нажали на пикер")
-        }
     }
  }
  
